@@ -7,7 +7,7 @@
         <h2>badges & frens</h2>
         <div class="flex gap-2 w-full flex-wrap justify-evenly">
             <a href="https://iamsoph.ie/"><img src="/badges/2dcatgirlIRL.png" alt=""></a>
-            <img src="/badges/twirl.gif" alt="">
+            <a href="https://silly.city/"><img src="/badges/silly.gif" alt=""></a>
             <img src="/badges/twirl.gif" alt="">
             <img src="/badges/twirl.gif" alt="">
             <img src="/badges/twirl.gif" alt="">
