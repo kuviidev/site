@@ -26,8 +26,8 @@ import Infobox from './Infobox.vue';
             <p>kuvii@airmail.cc</p>
             <h3>=== signal</h3>
             <p>meow.256</p>
-            <h3>=== telegram</h3>
-            <p>...</p>
+            <h3>=== github</h3>
+            <p><a href="https://github.com/kuviidev">kuviidev</a></p>
             <h3>=== matrix</h3>
             <p>...</p>
             <h3>=== discord</h3>
