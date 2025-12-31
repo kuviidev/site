@@ -6,7 +6,7 @@
         <p>-</p>
         <RouterLink to="/blog" class="bg-striped">blog</RouterLink>
         <p>-</p>
-        <RouterLink to="/projects" class="bg-striped">projects</RouterLink>
+        <RouterLink to="/projects">projects</RouterLink>
         <p>-</p>
         <RouterLink to="/bookmarks" class="bg-striped">bookmarks</RouterLink>
         <div class="ml-auto">
@@ -19,7 +19,7 @@
 </template>
 
 <style lang="scss" scoped>
-    a, a:any-link {
+    a {
         @apply flex items-center py-2 px-4 bg-zinc-700 text-gray hover:scale-105 active:scale-95;
     }
 
