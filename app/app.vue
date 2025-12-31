@@ -45,7 +45,11 @@ import Navbar from './components/common/Navbar.vue';
         background-size: 41px 41px;
     }
 
-    a, a:any-link {
+    a {
         @apply text-purple-400;
+    }
+
+    hr {
+        @apply text-gray;
     }
 </style>
