@@ -5,5 +5,10 @@ export default defineNuxtConfig({
   modules: ['@nuxt/icon', '@nuxt/fonts', '@unocss/nuxt'],
   unocss: {
     nuxtLayers: true,
+  },
+  runtimeConfig: {
+    public: {
+      updatedAt: '%UPDATED_AT%',
+    }
   }
 })
