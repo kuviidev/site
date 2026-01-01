@@ -6,7 +6,7 @@ const runtimeConfig = useRuntimeConfig()
     <footer class="bord flex flex-col gap-2 p-4">
         <div class="flex justify-between">
             <span>made by kuvii ^^</span>
-            <span class="text-zinc-600">{{ runtimeConfig.public.updatedAt }}</span>
+            <span class="text-zinc-600">Updated at: {{ runtimeConfig.public.updatedAt }}</span>
         </div>
         <hr>
         <h2>badges & frens</h2>
