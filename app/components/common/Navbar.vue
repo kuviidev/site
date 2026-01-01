@@ -8,7 +8,7 @@
         <p>-</p>
         <RouterLink to="/projects">projects</RouterLink>
         <p>-</p>
-        <RouterLink to="/bookmarks" class="bg-striped">bookmarks</RouterLink>
+        <RouterLink to="/bookmarks">bookmarks</RouterLink>
         <div class="ml-auto">
             <!-- todo: add or not -->
             <audio controls loop hidden>
