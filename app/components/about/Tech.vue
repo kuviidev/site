@@ -68,11 +68,4 @@
 </template>
 
 <style lang="scss" scoped>
-    table {
-        @apply border-gray border-2 border-solid border-spacing-sm;
-
-        thead {
-            @apply bg-zinc-700 text-zinc-400;
-        }
-    }
 </style>

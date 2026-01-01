@@ -52,4 +52,12 @@ import Navbar from './components/common/Navbar.vue';
     hr {
         @apply text-gray;
     }
+    
+    table {
+        @apply border-gray border-2 border-solid border-spacing-sm;
+
+        thead {
+            @apply bg-zinc-700 text-zinc-400;
+        }
+    }
 </style>
