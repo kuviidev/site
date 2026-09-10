@@ -31,7 +31,7 @@ import Infobox from './Infobox.vue'
     <Profile class="col-span-2 col-start-6 row-start-3 justify-center items-center"></Profile>
 
     <div class="col-start-1 row-start-4 bg-striped"></div>
-    <div class="col-start-6 row-start-4 col-span-2 row-span-2 p-4">
+    <div class="col-start-6 row-start-4 col-span-2 row-span-2 p-4 overflow-auto">
       <h2>== contacts & links</h2>
       <h3>=== email</h3>
       <p>kuvii@airmail.cc</p>
