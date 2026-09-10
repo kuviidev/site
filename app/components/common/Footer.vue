@@ -9,17 +9,17 @@ const runtimeConfig = useRuntimeConfig()
       <span class="text-zinc-600">Updated at: {{ runtimeConfig.public.updatedAt }}</span>
     </div>
     <hr />
-    <h2>badges & frens</h2>
+    <h2>frens & other badges</h2>
     <div class="badgelist">
       <a href="https://leash.me/"><img src="/badges/chocy-2.webp" alt="" /></a>
       <a href="https://iamsoph.ie/"><img src="/badges/2dcatgirlIRL.png" alt="" /></a>
+      <a href="https://eightyeightthirty.one/#kuvii.me"><img src="/badges/88x31.png" alt="" /></a>
+      <a href="https://www.getmonero.org/"><img src="/badges/monero-now.gif" alt="" /></a>
+      <a href="https://www.gentoo.org/"><img src="/badges/gentoo.gif" alt="" /></a>
       <a href="https://silly.city/"><img src="/badges/silly.gif" alt="" /></a>
-      <img src="/badges/monero-now.gif" alt="" />
+      <a href="https://lucida.to/"><img src="/badges/lucida.gif" alt="" /></a>
       <img src="/badges/youre_telling_me.png" alt="" />
       <img src="/badges/twopaws.png" alt="" />
-      <img src="/badges/twirl.gif" alt="" />
-      <img src="/badges/twirl.gif" alt="" />
-      <img src="/badges/twirl.gif" alt="" />
       <img src="/badges/twirl.gif" alt="" />
       <img src="/badges/twirl.gif" alt="" />
     </div>
