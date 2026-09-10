@@ -9,6 +9,6 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       updatedAt: '%UPDATED_AT%',
-    }
-  }
+    },
+  },
 })

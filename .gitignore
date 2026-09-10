@@ -13,6 +13,10 @@ node_modules
 logs
 *.log
 
+# Blog (Go/Fiber) runtime artifacts
+blog/blog.db
+blog/blog.db-*
+
 # Misc
 .DS_Store
 .fleet

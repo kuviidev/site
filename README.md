@@ -3,27 +3,33 @@
 this beautiful little thing is built on top of nuxt4
 
 ## requirements
+
 - nodejs
 - pnpm
 - docker
 
 ## install dependencies
+
 ```sh
 pnpm i
 ```
 
 ## run a dev server
+
 ```sh
 pnpm run dev
 ```
 
 ## build it
+
 ```sh
 docker built -d site .
 ```
 
 ## run a prod container
+
 compose.yml
+
 ```
 services:
   site:

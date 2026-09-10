@@ -1,63 +1,80 @@
 <script setup lang="ts">
-import Footer from './components/common/Footer.vue';
-import Navbar from './components/common/Navbar.vue';
+import Footer from './components/common/Footer.vue'
+import Navbar from './components/common/Navbar.vue'
 </script>
 
 <template>
-    <NuxtLayout>
-        <div class="flex flex-col gap-4 font-ega text-zinc-200 bg-zinc-900 min-h-full max-w-[1200px] m-auto p-8">
-            <Navbar></Navbar>
-            <NuxtPage />
-            <Footer></Footer>
-        </div>
-    </NuxtLayout>
+  <NuxtLayout>
+    <div class="flex flex-col gap-4 font-ega text-zinc-200 bg-zinc-900 min-h-full max-w-[1200px] m-auto p-8">
+      <Navbar></Navbar>
+      <NuxtPage />
+      <Footer></Footer>
+    </div>
+  </NuxtLayout>
 </template>
 
 <style lang="scss">
-    $gray: rgba(156, 163, 175, 0.7);
-    
-    * {
-        @apply p-0 m-0;
-    }
+$gray: rgba(156, 163, 175, 0.7);
 
-    .bord {
-        @apply border-2 border-solid border-gray;
-    }
+* {
+  @apply p-0 m-0;
+}
 
-    #__nuxt, html, body {
-        @apply bg-zinc-950 h-full min-h-full;
-    }
+@for $i from 3 through 1 {
+  h#{$i}:not(:first-child):not(hr + h#{$i}) {
+    @apply pt-4;
+  }
+}
 
-    p {
-        @apply text-zinc-400;
-    }
+.bord {
+  @apply border-2 border-solid border-gray;
+}
 
-    li {
-        @apply ml-4;
-    }
+#__nuxt,
+html,
+body {
+  @apply bg-zinc-950 h-full min-h-full;
+}
 
-    .badge {
-        image-rendering: pixelated;
-    }
+p {
+  @apply text-zinc-400;
+}
 
-    .bg-striped {
-        background: linear-gradient(45deg, $gray 25%, transparent 25%, transparent 50%, $gray 50%, $gray 75%, transparent 75%, transparent);
-        background-size: 41px 41px;
-    }
+li {
+  @apply ml-4;
+}
 
-    a {
-        @apply text-purple-400;
-    }
+.badge {
+  image-rendering: pixelated;
+}
 
-    hr {
-        @apply text-gray;
-    }
-    
-    table {
-        @apply border-gray border-2 border-solid border-spacing-sm;
+.bg-striped {
+  background: linear-gradient(
+    45deg,
+    $gray 25%,
+    transparent 25%,
+    transparent 50%,
+    $gray 50%,
+    $gray 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 41px 41px;
+}
 
-        thead {
-            @apply bg-zinc-700 text-zinc-400;
-        }
-    }
+a {
+  @apply text-purple-400;
+}
+
+hr {
+  @apply text-gray;
+}
+
+table {
+  @apply border-gray border-2 border-solid border-spacing-sm;
+
+  thead {
+    @apply bg-zinc-700 text-zinc-400;
+  }
+}
 </style>
