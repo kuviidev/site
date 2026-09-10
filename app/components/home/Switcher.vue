@@ -36,7 +36,7 @@ import Infobox from './Infobox.vue'
       <h3>=== email</h3>
       <p>kuvii@airmail.cc</p>
       <h3>=== signal</h3>
-      <p>meow.256</p>
+      <p>meow.512</p>
       <h3>=== github</h3>
       <p><a href="https://github.com/kuviidev">kuviidev</a></p>
       <h3>=== matrix</h3>
