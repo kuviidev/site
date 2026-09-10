@@ -1,6 +1,13 @@
 <script setup lang="ts">
-import Footer from './components/common/Footer.vue'
-import Navbar from './components/common/Navbar.vue'
+import Footer from './components/common/Footer.vue';
+import Navbar from './components/common/Navbar.vue';
+
+useSeoMeta({
+  title: "kuvii's webby site",
+  ogTitle: "kuvii's webby site",
+  description: 'my personal website',
+  ogDescription: 'my personal website',
+});
 </script>
 
 <template>

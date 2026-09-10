@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import Profile from '../common/Profile.vue'
-import GridButton from './GridButton.vue'
-import Infobox from './Infobox.vue'
+import Profile from '../common/Profile.vue';
+import GridButton from './GridButton.vue';
+import Infobox from './Infobox.vue';
 </script>
 
 <template>

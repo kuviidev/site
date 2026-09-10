@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import Games from '~/components/about/Games.vue'
-import Introduction from '~/components/about/Introduction.vue'
-import Tech from '~/components/about/Tech.vue'
+import Games from '~/components/about/Games.vue';
+import Introduction from '~/components/about/Introduction.vue';
+import Tech from '~/components/about/Tech.vue';
 </script>
 
 <template>

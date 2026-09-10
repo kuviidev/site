@@ -1,4 +1,4 @@
-import { defineConfig, transformerDirectives } from 'unocss'
+import { defineConfig, transformerDirectives } from 'unocss';
 
 export default defineConfig({
   theme: {
@@ -9,4 +9,4 @@ export default defineConfig({
     },
   },
   transformers: [transformerDirectives()],
-})
+});

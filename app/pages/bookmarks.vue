@@ -12,7 +12,7 @@ const links: string[][] = [
   ['https://nyaa.si/', 'anime torrent site'],
   ['https://squid.wtf/', 'music download site (rips from tidal)'],
   ['https://vim.trorr.com/', 'vim cheatsheet'],
-]
+];
 </script>
 
 <template>

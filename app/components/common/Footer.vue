@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const runtimeConfig = useRuntimeConfig()
+const runtimeConfig = useRuntimeConfig();
 </script>
 
 <template>
