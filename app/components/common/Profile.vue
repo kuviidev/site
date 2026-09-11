@@ -1,21 +1,21 @@
 <template>
-  <div class="pfpbg flex gap-4 justify-evenly">
+  <div class="pfp flex p-4 gap-2 max-lg:gap-2 lg:gap-4 flex-col max-lg:flex-col-reverse justify-center max-lg:justify-center lg:justify-evenly">
     <div class="flex flex-col justify-center">
-      <span class="text-blue-400 text-xl">
+      <span class="inline-block text-xl text-blue-400 max-lg:text-center">
         kuvii
-        <span class="h-2 w-2 aspect-square inline-block bg-yellow rounded-full"></span>
+        <span class="inline-block w-2 h-2 aspect-square bg-yellow rounded-full"></span>
       </span>
-      <span class="text-yellow">probably online</span>
+      <span class="text-yellow max-lg:text-center">probably online</span>
     </div>
-    <img src="/pfp/new_cropped.jpg" alt="<insert pfp here>" height="128" />
+    <img src="/pfp/new_cropped.jpg" alt="kuvii" class="max-lg:h-[64px] lg:h-[128px]" />
   </div>
 </template>
 
 <style lang="scss" scoped>
-.pfpbg {
+.pfp {
   $alpha: 0.7;
   background:
-    linear-gradient(rgba($color: #000000, $alpha: $alpha), rgba($color: #000000, $alpha: $alpha)),
+    linear-gradient(rgba(#000, $alpha), rgba(#000, $alpha)),
     url(/pfp/new_cropped.jpg);
 }
 </style>
