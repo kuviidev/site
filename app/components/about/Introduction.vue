@@ -20,7 +20,7 @@
           check out my blog!
         </p>
       </div>
-      <img src="/assets/me.jpeg" alt="" class="lg:w-[500px] lg:h-auto object-cover" />
+      <img src="/assets/img/me.jpeg" alt="" class="lg:w-[500px] lg:h-auto object-cover" />
     </div>
   </div>
 </template>

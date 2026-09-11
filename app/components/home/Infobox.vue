@@ -32,8 +32,8 @@
     <div class="flex flex-col gap-2">
       <div class="flex gap-2">
         <textarea name="" id="">
-<a href="https://kuvii.me/"><img src="https://kuvii.me/badge.gif" alt="" width="88px" height="31px"></a></textarea>
-        <a href="/"><img src="/badge.gif" alt="my web badge!" class="badge w-[88px]" /></a>
+<a href="https://kuvii.me/"><img src="https://kuvii.me/assets/img/badge.gif" alt="" width="88px" height="31px"></a></textarea>
+        <a href="/"><img src="/assets/img/badge.gif" alt="my web badge!" class="badge w-[88px]" /></a>
       </div>
     </div>
   </div>

@@ -9,13 +9,13 @@
       </span>
       <span class="text-yellow max-lg:text-center">probably online</span>
     </div>
-    <img src="/pfp/new_cropped.jpg" alt="kuvii" class="max-lg:h-[64px] lg:h-[128px]" />
+    <img src="/assets/img/pfp/new_cropped.jpg" alt="kuvii" class="max-lg:h-[64px] lg:h-[128px]" />
   </div>
 </template>
 
 <style lang="scss" scoped>
 .pfp {
   $alpha: 0.7;
-  background: linear-gradient(rgba(#000, $alpha), rgba(#000, $alpha)), url(/pfp/new_cropped.jpg);
+  background: linear-gradient(rgba(#000, $alpha), rgba(#000, $alpha)), url(/assets/img/pfp/new_cropped.jpg);
 }
 </style>

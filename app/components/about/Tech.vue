@@ -74,7 +74,7 @@
     </p>
 
     <h3>=== thinkpad collection</h3>
-    <img src="/assets/thinkpads.jpg" alt="" />
+    <img src="/assets/img/thinkpads.jpg" alt="" />
     <p>took this pic in july of 2025, since then my collection has expanded by another 701c, so now i have 2 :3</p>
 
     <h3>=== the "sysadmin stuff"</h3>

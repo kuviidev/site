@@ -13,7 +13,7 @@ const { play } = useSfx();
       <div class="projects grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
         <!-- TODO: make this into a component later -->
         <div class="project">
-          <img src="/projects/home.png" alt="" />
+          <img src="/assets/img/projects/home.png" alt="" />
           <div class="flex flex-col gap-2 p-4">
             <span class="text-purple">kuvii.me</span>
             <p class="text-justify">this is my own very cute personal webpage, the one you're currently visiting!!</p>

@@ -1,8 +1,8 @@
 import { ref } from 'vue';
 
 const sounds = {
-  tap: '/assets/sfx/tap.wav',
-  pluck: '/assets/sfx/pluck.wav',
+  tap: '/assets/audio/sfx/tap.wav',
+  pluck: '/assets/audio/sfx/pluck.wav',
 } as const;
 
 export type SfxName = keyof typeof sounds;

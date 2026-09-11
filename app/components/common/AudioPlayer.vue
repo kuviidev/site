@@ -55,7 +55,7 @@ function onVolume(e: Event) {
 <template>
   <div class="player">
     <audio ref="audioEl" loop preload="auto">
-      <source src="/prob_-_come_to_me.mp3" type="audio/mpeg" />
+      <source src="/assets/audio/bgm.mp3" type="audio/mpeg" />
     </audio>
 
     <button class="btn" :title="playing ? 'pause' : 'play'" @click="togglePlay">

@@ -48,7 +48,7 @@ $random-y2: math.random(100) * 1%;
   left: 0;
   bottom: 0;
   right: 0;
-  background-image: url('/bg.jpg');
+  background-image: url('/assets/img/bg.jpg');
   background-size: auto;
   background-position: center;
   opacity: 0.2;
