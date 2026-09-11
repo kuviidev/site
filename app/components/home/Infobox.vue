@@ -15,7 +15,8 @@
       GCS dx s--: a19 C+++$(++)>++++$ UL+++ L+++>++++ E---@ W+++$ !w++ PS+++ PE(--)@ Y++ PGP+ b D+ G e+(++)>+++
       h->---r++(-)>+++ y+*
       <a
-        href="https://mj.ucw.cz/geek/?code=GCS+dx+s--%3a+a19+C%2b%2b%2b$(%2b%2b)%3e%2b%2b%2b%2b$+UL%2b%2b%2b+L%2b%2b%2b%3e%2b%2b%2b%2b+E---%40+W%2b%2b%2b$+!w%2b%2b+PS%2b%2b%2b+PE(--)%40+Y%2b%2b+PGP%2b+b+D%2b+G+e%2b(%2b%2b)%3e%2b%2b%2b+h-%3e---+r%2b%2b(-)%3e%2b%2b%2b+y%2b*">
+        href="https://mj.ucw.cz/geek/?code=GCS+dx+s--%3a+a19+C%2b%2b%2b$(%2b%2b)%3e%2b%2b%2b%2b$+UL%2b%2b%2b+L%2b%2b%2b%3e%2b%2b%2b%2b+E---%40+W%2b%2b%2b$+!w%2b%2b+PS%2b%2b%2b+PE(--)%40+Y%2b%2b+PGP%2b+b+D%2b+G+e%2b(%2b%2b)%3e%2b%2b%2b+h-%3e---+r%2b%2b(-)%3e%2b%2b%2b+y%2b*"
+      >
         decode for me!
       </a>
     </code>
@@ -31,7 +32,7 @@
     <div class="flex flex-col gap-2">
       <div class="flex gap-2">
         <textarea name="" id="">
-<a href="https://kuvii.me/"><img src="https://kuvii.me/badge.gif" alt="" class="badge w-[88px]"></a></textarea>
+<a href="https://kuvii.me/"><img src="https://kuvii.me/badge.gif" alt="" width="88px" height="31px"></a></textarea>
         <a href="/"><img src="/badge.gif" alt="my web badge!" class="badge w-[88px]" /></a>
       </div>
     </div>
