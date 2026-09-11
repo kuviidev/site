@@ -8,7 +8,7 @@ import Game from './Game.vue';
     <div class="flex">
       <h2>== some of my gameplay</h2>
     </div>
-    <div class="flex gap-2">
+    <div class="flex gap-2 max-md:flex-col">
       <Game id="wk" />
       <Game id="tf2" />
       <Game id="haste" />
