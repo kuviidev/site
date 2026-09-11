@@ -52,10 +52,6 @@ const runtimeConfig = useRuntimeConfig();
 .thinbadgelist {
   @apply flex gap-2 w-full flex-wrap justify-evenly;
 
-  img {
-    @apply transition-all transform ease duration-100;
-  }
-
   img:hover {
     transform: scale(1.1);
   }
