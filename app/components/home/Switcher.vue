@@ -33,10 +33,10 @@ import Infobox from './Infobox.vue';
     <div class="col-start-1 row-start-4 bg-striped"></div>
     <div class="col-start-6 row-start-4 col-span-2 row-span-2 p-4 overflow-auto">
       <h2>== contacts & links</h2>
+      <h3>=== signal (fastest)</h3>
+      <p>meow.512</p>
       <h3>=== email</h3>
       <p>kuvii@airmail.cc</p>
-      <h3>=== signal</h3>
-      <p>meow.512</p>
       <h3>=== github</h3>
       <p><a href="https://github.com/kuviidev">kuviidev</a></p>
       <h3>=== matrix</h3>
