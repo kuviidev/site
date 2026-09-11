@@ -63,7 +63,7 @@ $colors: (
   @apply flex gap-2 flex-wrap justify-evenly;
 
   span {
-    @apply text-nowrap bg-zinc-700 text-zinc-400 px-2;
+    @apply bg-zinc-700 text-zinc-400 px-2;
   }
 
   // @for $i from 1 through 7 {

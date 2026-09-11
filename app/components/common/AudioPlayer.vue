@@ -77,7 +77,7 @@ function onVolume(e: Event) {
 
 <style lang="scss" scoped>
 .player {
-  @apply flex items-center gap-2;
+  @apply flex flex-wrap items-center gap-2;
 }
 
 .btn {
