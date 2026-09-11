@@ -2,8 +2,8 @@
 // not using an array of objects because this is easier to write
 const links: string[][] = [
   ['https://nekotomori.com/', 'buy high quality cat ears and other cute accessories!!'],
-  ['https://www.privex.io/', 'interesting private server host'],
   ['https://kyun.host/', 'cute, private and cheap and based server host'],
+  ['https://www.privex.io/', 'private server host'],
   ['https://buyvm.net/', 'affordable server host'],
   ['https://www.keybr.com/', 'touch typing practice platform'],
   ['https://jmp.chat/', 'private xmpp based virtual phone number provider (accepts btc)'],
@@ -12,6 +12,8 @@ const links: string[][] = [
   ['https://nyaa.si/', 'anime torrent site'],
   ['https://squid.wtf/', 'music download site (rips from tidal)'],
   ['https://vim.trorr.com/', 'vim cheatsheet'],
+  ['https://www.goodreads.com/', "friend's recommendation. place to find books you can read."],
+  ['https://oceanofpdf.com/', 'place to download books as pdf'],
 ];
 </script>
 
@@ -19,6 +21,8 @@ const links: string[][] = [
   <!-- TODO: sort shit based on category e.g tech -->
   <div class="h-[100vh] flex flex-col gap-2">
     <h1>= bookmarks</h1>
+    <p>here are some sites i'd like to share with you!</p>
+    <p>websites listed here might be behind cloudflare.</p>
     <div>
       <h2>== unsorted</h2>
       <table class="w-full">
