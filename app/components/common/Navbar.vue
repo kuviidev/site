@@ -5,7 +5,7 @@ import AudioPlayer from './AudioPlayer.vue';
 
 <template>
   <nav class="flex flex-col gap-4 bord p-4">
-    <pre>
+    <pre class="select-none line-height-none max-md:text-[8px]">
 ▄▄                 ▀▀  ▀▀                    
 ██ ▄█▀ ██ ██ ██ ██ ██  ██     ███▄███▄ ▄█▀█▄ 
 ████   ██ ██ ██▄██ ██  ██     ██ ██ ██ ██▄█▀ 
