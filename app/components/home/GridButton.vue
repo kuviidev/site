@@ -1,9 +1,17 @@
 <script setup lang="ts">
+import { useSfx } from '#imports';
+
 const props = defineProps<{ title: string; icon: string; nav?: string }>();
+
+const { play } = useSfx();
 </script>
 
 <template>
-  <RouterLink :to="nav ?? '#'" class="gridbtn relative flex flex-col items-center gap-2">
+  <RouterLink
+    :to="nav ?? '#'"
+    class="gridbtn relative flex flex-col items-center gap-2"
+    @mouseenter="play('tap')"
+    @click="play('pluck')">
     <Icon :name="props.icon" size="64" />
     <span class="text-lg">{{ props.title }}</span>
   </RouterLink>
