@@ -1,4 +1,8 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { useSfx } from '#imports';
+
+const { play } = useSfx();
+</script>
 
 <template>
   <div class="h-[100vh] flex flex-col gap-2">
@@ -14,8 +18,8 @@
             <span class="text-purple">kuvii.me</span>
             <p class="text-justify">this is my own very cute personal webpage, the one you're currently visiting!!</p>
             <hr />
-            <a href="https://kuvii.me/"> project </a>
-            <a href="https://github.com/kuviidev/site"> repo </a>
+            <a href="https://kuvii.me/" @mouseover="play('tap')" @click="play('pluck')"> project </a>
+            <a href="https://github.com/kuviidev/site" @mouseover="play('tap')" @click="play('pluck')"> repo </a>
           </div>
         </div>
       </div>
@@ -32,7 +36,7 @@
   }
 
   a {
-    @apply py-2 px-4 text-center bg-zinc-700 text-zinc-400 hover:bg-zinc-600 active:scale-95;
+    @apply py-2 px-4 text-center bg-zinc-700 text-zinc-400 hover:bg-zinc-600 hover:scale-105 active:scale-95;
   }
 }
 </style>

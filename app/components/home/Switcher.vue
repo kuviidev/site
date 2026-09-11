@@ -11,19 +11,22 @@ import Infobox from './Infobox.vue';
       nav="/blog"
       title="blog"
       icon="pixelarticons:notes"
-      class="gridbtn col-start-2 row-start-1 col-span-3 justify-center" />
+      class="gridbtn col-start-2 row-start-1 col-span-3 justify-center"
+    />
     <div class="col-start-5 row-start-1 bg-striped"></div>
     <GridButton
       nav="/about"
       title="about me!!!!"
       icon="pixelarticons:human-handsup"
-      class="gridbtn col-start-6 row-start-1 col-span-2 row-span-2 justify-center" />
+      class="gridbtn col-start-6 row-start-1 col-span-2 row-span-2 justify-center"
+    />
 
     <GridButton
       nav="/bookmarks"
       title="bookmarks"
       icon="pixelarticons:bookmarks"
-      class="gridbtn col-start-1 row-start-2 row-span-2 justify-center" />
+      class="gridbtn col-start-1 row-start-2 row-span-2 justify-center"
+    />
     <div class="col-span-4 col-start-2 row-span-3 row-start-2 p-4 flex flex-col gap-4 overflow-auto">
       <Infobox />
     </div>
@@ -49,7 +52,8 @@ import Infobox from './Infobox.vue';
       nav="/projects"
       title="projects"
       icon="pixelarticons:github"
-      class="gridbtn col-start-1 row-start-5 col-span-4 justify-center" />
+      class="gridbtn col-start-1 row-start-5 col-span-4 justify-center"
+    />
     <div class="col-start-5 row-start-5 bg-striped"></div>
   </div>
 </template>
@@ -60,6 +64,6 @@ div.grid > * {
 }
 
 .gridbtn {
-  @apply cursor-pointer hover:scale-95 active:scale-90;
+  @apply cursor-pointer hover:scale-105 active:scale-95;
 }
 </style>

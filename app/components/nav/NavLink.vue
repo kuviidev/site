@@ -11,7 +11,8 @@ const { play } = useSfx();
     :to="props.to"
     :class="['link', { 'bg-striped': props.striped }]"
     @mouseenter="play('tap')"
-    @click="play('pluck')">
+    @click="play('pluck')"
+  >
     <slot />
   </RouterLink>
 </template>
