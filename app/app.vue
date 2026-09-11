@@ -13,9 +13,9 @@ useSeoMeta({
 <template>
   <NuxtLayout>
     <div class="flex flex-col gap-4 font-ega text-zinc-200 bg-zinc-900 min-h-full max-w-[1200px] m-auto p-8">
-      <Navbar></Navbar>
+      <Navbar />
       <NuxtPage />
-      <Footer></Footer>
+      <Footer />
     </div>
   </NuxtLayout>
 </template>
