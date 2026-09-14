@@ -8,6 +8,8 @@ export default defineNuxtConfig({
     nuxtLayers: true,
   },
   runtimeConfig: {
+    // base URL of the kuvii/blog backend, proxied via /api/blog/*
+    blogApiBase: process.env.BLOG_API_BASE || 'http://localhost:8080',
     public: {
       updatedAt: '%UPDATED_AT%',
     },
@@ -17,5 +19,6 @@ export default defineNuxtConfig({
     '/about': { prerender: true },
     '/projects': { prerender: true },
     '/bookmarks': { prerender: true },
+    '/blog/admin': { ssr: false },
   },
 });

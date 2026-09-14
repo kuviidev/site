@@ -25,6 +25,20 @@ $gray: rgba(156, 163, 175, 0.7);
 
 * {
   @apply p-0 m-0;
+  box-sizing: border-box;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  color: inherit;
+}
+
+button {
+  @apply bg-transparent cursor-pointer;
+  border: none;
 }
 
 @for $i from 3 through 1 {
@@ -71,6 +85,10 @@ li {
 
 a {
   @apply text-purple-400;
+}
+
+.hashtag {
+  @apply text-purple-300 font-model3x;
 }
 
 hr {

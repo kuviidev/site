@@ -1,24 +1,11 @@
 <script setup lang="ts">
-import { useSfx } from '#imports';
+import Button from '~/components/common/Button.vue';
 
 const props = defineProps<{ to: string; striped?: boolean }>();
-
-const { play } = useSfx();
 </script>
 
 <template>
-  <RouterLink
-    :to="props.to"
-    :class="['link', { 'bg-striped': props.striped }]"
-    @mouseenter="play('tap')"
-    @click="play('pluck')"
-  >
+  <Button variant="nav" :to="props.to" :striped="props.striped">
     <slot />
-  </RouterLink>
+  </Button>
 </template>
-
-<style lang="scss" scoped>
-.link {
-  @apply flex items-center py-2 px-4 bg-zinc-700 text-gray hover:scale-105 active:scale-95;
-}
-</style>

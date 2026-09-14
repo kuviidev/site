@@ -1,7 +1,5 @@
 <script lang="ts" setup>
-import { useSfx } from '#imports';
-
-const { play } = useSfx();
+import Button from '~/components/common/Button.vue';
 </script>
 
 <template>
@@ -18,8 +16,8 @@ const { play } = useSfx();
             <span class="text-purple">kuvii.me</span>
             <p class="text-justify">this is my own very cute personal webpage, the one you're currently visiting!!</p>
             <hr />
-            <a href="https://kuvii.me/" @mouseover="play('tap')" @click="play('pluck')"> project </a>
-            <a href="https://github.com/kuviidev/site" @mouseover="play('tap')" @click="play('pluck')"> repo </a>
+            <Button href="https://kuvii.me/" block>project</Button>
+            <Button href="https://github.com/kuviidev/site" block>repo</Button>
           </div>
         </div>
       </div>
@@ -33,10 +31,6 @@ const { play } = useSfx();
 
   img {
     @apply w-full border-b-2 border-b-solid border-b-gray;
-  }
-
-  a {
-    @apply py-2 px-4 text-center bg-zinc-700 text-zinc-400 hover:bg-zinc-600 hover:scale-105 active:scale-95;
   }
 }
 </style>

@@ -1,8 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue';
-import { useSfx } from '#imports';
-
-const { play } = useSfx();
+import Button from './Button.vue';
 
 const audioEl = ref<HTMLAudioElement | null>(null);
 const playing = ref(false);
@@ -35,7 +33,6 @@ onUnmounted(() => {
 });
 
 function togglePlay() {
-  play('tap');
   const el = audioEl.value;
   if (!el) return;
   if (el.paused) {
@@ -58,9 +55,13 @@ function onVolume(e: Event) {
       <source src="/assets/audio/bgm.mp3" type="audio/mpeg" />
     </audio>
 
-    <button class="btn" :title="playing ? 'pause' : 'play'" @click="togglePlay">
-      <Icon :name="playing ? 'pixelarticons:pause' : 'pixelarticons:play'" size="16" />
-    </button>
+    <Button
+      variant="icon"
+      class="w-7 h-7"
+      :title="playing ? 'pause' : 'play'"
+      :icon="playing ? 'pixelarticons:pause' : 'pixelarticons:play'"
+      @click="togglePlay"
+    />
 
     <div class="bar-wrap">
       <div class="bar">
@@ -78,13 +79,6 @@ function onVolume(e: Event) {
 <style lang="scss" scoped>
 .player {
   @apply flex flex-wrap items-center gap-2;
-}
-
-.btn {
-  @apply border-2 border-solid border-gray bg-zinc-700 text-gray p-1 flex items-center justify-center
-         hover:bg-zinc-600 active:scale-90 transition-all cursor-pointer;
-  width: 28px;
-  height: 28px;
 }
 
 .bar-wrap {
