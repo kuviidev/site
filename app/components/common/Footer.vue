@@ -13,6 +13,9 @@ const runtimeConfig = useRuntimeConfig();
     <div class="badgelist">
       <a href="https://leash.me/"><img src="/assets/badges/chocy-2.webp" alt="" /></a>
       <a href="https://iamsoph.ie/"><img src="/assets/badges/2dcatgirlIRL.png" alt="" /></a>
+      <a href="https://blog.cakeeh.art/" target="_blank">
+        <img src="https://blog.cakeeh.art/images/gifs/deer-journal-88x31.gif" loading="lazy" alt="Deer's Journal button">
+      </a>
       <a href="https://eightyeightthirty.one/#kuvii.me"><img src="/assets/badges/88x31.png" alt="" /></a>
       <a href="https://www.getmonero.org/"><img src="/assets/badges/monero-now.gif" alt="" /></a>
       <a href="https://www.gentoo.org/"><img src="/assets/badges/gentoo.gif" alt="" /></a>
@@ -20,7 +23,6 @@ const runtimeConfig = useRuntimeConfig();
       <a href="https://lucida.to/"><img src="/assets/badges/lucida.gif" alt="" /></a>
       <img src="/assets/badges/youre_telling_me.png" alt="" />
       <img src="/assets/badges/twopaws.png" alt="" />
-      <img src="/assets/badges/twirl.gif" alt="" />
       <img src="/assets/badges/twirl.gif" alt="" />
     </div>
     <div class="thinbadgelist">
